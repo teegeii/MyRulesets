@@ -1,4 +1,2 @@
-DOMAIN-SUFFIX,plusmedia.site
-payload:
-  # > Google Voice
-  - DOMAIN,lens.l.google.com
+DOMAIN-SUFFIX,voice.google.com
+DOMAIN,lens.l.google.com
