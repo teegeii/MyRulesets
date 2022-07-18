@@ -1,2 +1,12 @@
 DOMAIN-SUFFIX,educn-my.sharepoint.com
 DOMAIN-SUFFIX,educn.sharepoint.com
+DOMAIN-SUFFIX,partner.microsoftonline.cn
+
+IP-CIDR,40.73.129.0/24,no-resolve
+IP-CIDR,40.73.161.0/24,no-resolve
+IP-CIDR,42.159.34.0/27,no-resolve
+IP-CIDR,42.159.38.0/23,no-resolve
+IP-CIDR,42.159.162.0/27,no-resolve
+IP-CIDR,42.159.166.0/23,no-resolve
+IP-CIDR,2406:e500:4000:2::/63,no-resolve
+IP-CIDR,2406:e500:4101:2::/64no-resolve
