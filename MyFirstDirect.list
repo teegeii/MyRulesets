@@ -1,2 +1,7 @@
 # link to windows
 DOMAIN-SUFFIX,dcg.microsoft.com
+
+
+# moonlight
+DOMAIN-SUFFIX,moonlight-stream.org
+DOMAIN-KEYWORD,moonlight
