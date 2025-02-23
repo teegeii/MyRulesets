@@ -20,3 +20,7 @@ DOMAIN-SUFFIX,4.ipw.cn
 # moonlight
 DOMAIN-SUFFIX,moonlight-stream.org
 DOMAIN-KEYWORD,moonlight
+
+
+# zox\AcEmby
+DOMAIN-SUFFIX,zox.show
