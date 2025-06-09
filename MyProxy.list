@@ -13,6 +13,3 @@ DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 
 # zox
 DOMAIN-SUFFIX,cf.zox.show
-
-# wifi calling rule
-IP-CIDR,208.54.0.0/16,no-resolve
