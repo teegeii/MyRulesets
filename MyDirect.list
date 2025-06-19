@@ -24,3 +24,10 @@ DOMAIN-KEYWORD,moonlight
 
 # zox\AcEmby
 # DOMAIN-SUFFIX,entry.zox.show
+
+
+# IP ddns
+# DOMAIN-SUFFIX,myip.ipip.net
+# DOMAIN-SUFFIX,ddns.oray.com
+# DOMAIN-SUFFIX,ip.3322.net
+# DOMAIN-SUFFIX,ipw.cn
