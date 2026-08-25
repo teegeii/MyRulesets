@@ -229,33 +229,35 @@ const ruleProviders = {
 // 地区配置
 const regionConfig = [
     {
+        name: "🇭🇰 香港 📶",
+        matcher: "香港|🇭🇰|HK|Hong Kong|HongKong|港",
+        icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/flags/hk.svg"
+    },
+    {
         name: "🇺🇸 美国 📶",
-        matcher: "美国|🇺🇸|US|United States|America",
+        matcher: "美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|JMS|🇺🇲|🇺🇸",
         icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/flags/us.svg"
     },
     {
+        name: "🇸🇬 新加坡 📶",
+        matcher: "新加坡|坡|狮城|SG|Singapore|🇸🇬",
+        icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/flags/sg.svg"
+    },
+    {
         name: "🇯🇵 日本 📶",
-        matcher: "日本|🇯🇵|JP|Japan",
+        matcher: "日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|🇯🇵",
         icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/flags/jp.svg"
     },
     {
         name: "🇰🇷 韩国 📶",
-        matcher: "韩|🇰🇷|kr|korea",
+        matcher: "KR|Korea|KOR|首尔|韩|韓|🇰🇷",
         icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/flags/kr.svg"
     },
-    {
-        name: "🇸🇬 新加坡 📶",
-        matcher: "新加坡|🇸🇬|SG|狮城|Singapore",
-        icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/flags/sg.svg"
-    },
-    {
-        name: "🇭🇰 香港 📶",
-        matcher: "香港|🇭🇰|HK|Hong Kong|HongKong",
-        icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/flags/hk.svg"
-    },
+    
+    
     {
         name: "🇹🇼 台湾 📶",
-        matcher: "台湾|🇹🇼|tw|taiwan|tai wan",
+        matcher: "台|新北|彰化|TW|Taiwan|🇨🇳",
         icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/flags/tw.svg"
     },
     {
@@ -385,7 +387,7 @@ const proxyGroups = [
         ...groupBaseOption,
         name: "节点选择",
         type: "select",
-        proxies: ["延迟选优", "手动选择", "故障转移", "负载均衡(散列)", "负载均衡(轮询)"],
+        proxies: [ "手动选择","延迟选优", "故障转移", "负载均衡(散列)", "负载均衡(轮询)"],
         icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Airport.png",
     },
     {
@@ -413,9 +415,9 @@ const proxyGroups = [
         name: "Bing",
         type: "select",
         proxies: [
-            "全局直连",
             "节点选择",
             "手动选择",
+            "全局直连",
             "延迟选优",
             "故障转移",
         ],
