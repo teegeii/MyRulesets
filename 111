@@ -1,0 +1,1108 @@
+[YAML]
+
+# ============================================================
+# teegeii / MyRulesets
+# OpenClash / Mihomo 本地覆写
+# 来源：
+# https://github.com/teegeii/MyRulesets/blob/main/rulesetmini.ini
+# ============================================================
+
+
+# ============================================================
+# Rule Providers
+# ============================================================
+
+rule-providers:
+
+  MyFirstDirect:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/MyFirstDirect.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/MyFirstDirect.list"
+    interval: 86400
+    proxy: Proxy
+
+  MyProxy:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/MyProxy.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/MyProxy.list"
+    interval: 86400
+    proxy: Proxy
+
+  MyGoogle:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/MyGoogle.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/MyGoogle.list"
+    interval: 86400
+    proxy: Proxy
+
+  GoogleCNProxyIP:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/GoogleCNProxyIP.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list"
+    interval: 86400
+    proxy: Proxy
+
+  MyOneDrive21Vianet:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/MyOneDrive21Vianet.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/MyOnedrive21Vianet.list"
+    interval: 86400
+    proxy: Proxy
+
+  MyOneDriveEDU:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/MyOneDriveEDU.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/MyOnedriveEDU.list"
+    interval: 86400
+    proxy: Proxy
+
+  OneDrive:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/OneDrive.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list"
+    interval: 86400
+    proxy: Proxy
+
+  Microsoft:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/Microsoft.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list"
+    interval: 86400
+    proxy: Proxy
+
+  MyMicrosoft:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/MyMicrosoft.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/MyMicrosoft.list"
+    interval: 86400
+    proxy: Proxy
+
+  GoogleVoice:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/GoogleVoice.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/GoogleVoice.list"
+    interval: 86400
+    proxy: Proxy
+
+  Epic:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/Epic.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list"
+    interval: 86400
+    proxy: Proxy
+
+  Pikpak:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/Pikpak.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/Pikpak.list"
+    interval: 86400
+    proxy: Proxy
+
+  Emby:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/Emby.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/Emby.list"
+    interval: 86400
+    proxy: Proxy
+
+  Amazon:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/Amazon.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Amazon.list"
+    interval: 86400
+    proxy: Proxy
+
+  MyAmazon:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/MyAmazon.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/MyAmazon.list"
+    interval: 86400
+    proxy: Proxy
+
+  Yandex:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/Yandex.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/Yandex.list"
+    interval: 86400
+    proxy: Proxy
+
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/LocalAreaNetwork.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
+    interval: 86400
+    proxy: Proxy
+
+  MyDirect:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/MyDirect.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/MyDirect.list"
+    interval: 86400
+    proxy: Proxy
+
+  GoogleCN:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/GoogleCN.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCN.list"
+    interval: 86400
+    proxy: Proxy
+
+  ChinaMedia:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/ChinaMedia.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list"
+    interval: 86400
+    proxy: Proxy
+
+  SteamCN:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/SteamCN.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"
+    interval: 86400
+    proxy: Proxy
+
+  UnBan:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/UnBan.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list"
+    interval: 86400
+    proxy: Proxy
+
+  ChinaIp:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/ChinaIp.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list"
+    interval: 86400
+    proxy: Proxy
+
+  ChinaDomain:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/ChinaDomain.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+    interval: 86400
+    proxy: Proxy
+
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/ChinaCompanyIp.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list"
+    interval: 86400
+    proxy: Proxy
+
+  Download:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/Download.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list"
+    interval: 86400
+    proxy: Proxy
+
+  Chatgpt:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/Chatgpt.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/Chatgpt.list"
+    interval: 86400
+    proxy: Proxy
+
+  OpenAi:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/OpenAi.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/OpenAi.list"
+    interval: 86400
+    proxy: Proxy
+
+  BanAD:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/BanAD.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list"
+    interval: 86400
+    proxy: Proxy
+
+  BanProgramAD:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/BanProgramAD.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
+    interval: 86400
+    proxy: Proxy
+
+  Speedtest:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/Speedtest.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/Speedtest.list"
+    interval: 86400
+    proxy: Proxy
+
+  YouTube:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/YouTube.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
+    interval: 86400
+    proxy: Proxy
+
+  YouTubeMusic:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/YouTubeMusic.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTubeMusic.list"
+    interval: 86400
+    proxy: Proxy
+
+  Google:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/Google.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
+    interval: 86400
+    proxy: Proxy
+
+  GoogleFCM:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/GoogleFCM.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list"
+    interval: 86400
+    proxy: Proxy
+
+  GoogleEarth:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/GoogleEarth.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleEarth.list"
+    interval: 86400
+    proxy: Proxy
+
+  MyUS:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/MyUS.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/MyUS.list"
+    interval: 86400
+    proxy: Proxy
+
+  Spotify:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/Spotify.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Spotify.list"
+    interval: 86400
+    proxy: Proxy
+
+  MySpotify:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/MySpotify.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/Spotify.list"
+    interval: 86400
+    proxy: Proxy
+
+  Github:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/Github.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
+    interval: 86400
+    proxy: Proxy
+
+  TelegramSG:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/TelegramSG.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/TelegramSG.list"
+    interval: 86400
+    proxy: Proxy
+
+  TelegramUS:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/TelegramUS.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/TelegramUS.list"
+    interval: 86400
+    proxy: Proxy
+
+  GameDownload:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/GameDownload.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GameDownload.list"
+    interval: 86400
+    proxy: Proxy
+
+  Steam:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/Steam.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list"
+    interval: 86400
+    proxy: Proxy
+
+  MySteam:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/MySteam.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/Steam.list"
+    interval: 86400
+    proxy: Proxy
+
+  Origin:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/Origin.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/Origin.list"
+    interval: 86400
+    proxy: Proxy
+
+  Xbox:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/Xbox.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/Xbox.list"
+    interval: 86400
+    proxy: Proxy
+
+  Apple:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/Apple.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list"
+    interval: 86400
+    proxy: Proxy
+
+  Netflix:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/Netflix.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
+    interval: 86400
+    proxy: Proxy
+
+  NetflixIP:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/NetflixIP.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetflixIP.list"
+    interval: 86400
+    proxy: Proxy
+
+  Telegram:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/Telegram.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
+    interval: 86400
+    proxy: Proxy
+
+  ProxyMedia:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/ProxyMedia.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+    interval: 86400
+    proxy: Proxy
+
+  ProxyGFWlist:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/ProxyGFWlist.list
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
+    interval: 86400
+    proxy: Proxy
+
+  MyProxyIP:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rule_provider/MyProxyIP.list
+    url: "https://raw.githubusercontent.com/teegeii/MyRulesets/refs/heads/main/MyProxyIP.list"
+    interval: 86400
+    proxy: Proxy
+
+
+# ============================================================
+# Proxy Groups
+# 使用 ! 强制替换订阅原有策略组
+# ============================================================
+
+proxy-groups!:
+
+  - name: Proxy
+    type: select
+    proxies:
+      - Select
+      - DIRECT
+
+  - name: Select
+    type: select
+    proxies:
+      - 香港节点
+      - 狮城节点
+      - 美国节点
+      - 日本节点
+      - 台湾节点
+      - 韩国节点
+    include-all: true
+
+  - name: 香港节点
+    type: select
+    include-all: true
+    filter: "(港|HK|Hong Kong|🇭🇰)"
+
+  - name: 狮城节点
+    type: select
+    include-all: true
+    filter: "(新加坡|坡|狮城|SG|Singapore|🇸🇬)"
+
+  - name: 美国节点
+    type: select
+    include-all: true
+    filter: "(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|JMS|🇺🇲|🇺🇸)"
+
+  - name: 日本节点
+    type: select
+    include-all: true
+    filter: "(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|🇯🇵)"
+
+  - name: 台湾节点
+    type: select
+    include-all: true
+    filter: "(台|新北|彰化|TW|Taiwan|🇨🇳)"
+
+  - name: 韩国节点
+    type: select
+    include-all: true
+    filter: "(KR|Korea|KOR|首尔|韩|韓|🇰🇷)"
+
+  - name: Speedtest
+    type: select
+    proxies:
+      - Proxy
+      - Select
+      - DIRECT
+      - Netflix
+      - Emby
+      - YouTube
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+    include-all: true
+
+  - name: FINAL
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - Select
+
+  - name: Microsoft
+    type: select
+    proxies:
+      - 美国节点
+      - 狮城节点
+      - 香港节点
+      - DIRECT
+      - Proxy
+      - Select
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+
+  - name: OneDrive
+    type: select
+    proxies:
+      - Microsoft
+      - 美国节点
+      - 狮城节点
+      - 香港节点
+      - DIRECT
+      - Proxy
+      - Select
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+
+  - name: OneDriveEDU
+    type: select
+    proxies:
+      - OneDrive
+      - 美国节点
+      - 狮城节点
+      - 香港节点
+      - DIRECT
+      - Proxy
+      - Select
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+
+  - name: OneDrive21Vianet
+    type: select
+    proxies:
+      - DIRECT
+      - Microsoft
+      - 香港节点
+      - Proxy
+      - Select
+
+  - name: Telegram
+    type: select
+    proxies:
+      - 美国节点
+      - 狮城节点
+      - Proxy
+      - Select
+      - DIRECT
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+
+  - name: TelegramSG
+    type: select
+    proxies:
+      - Telegram
+      - 狮城节点
+      - Proxy
+      - Select
+      - DIRECT
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+
+  - name: TelegramUS
+    type: select
+    proxies:
+      - Telegram
+      - 美国节点
+      - Proxy
+      - Select
+      - DIRECT
+      - 狮城节点
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+
+  - name: Emby
+    type: select
+    proxies:
+      - 香港节点
+      - 美国节点
+      - 狮城节点
+      - 日本节点
+      - DIRECT
+      - Proxy
+      - Select
+      - 台湾节点
+      - 韩国节点
+    include-all: true
+
+  - name: Netflix
+    type: select
+    proxies:
+      - 狮城节点
+      - Proxy
+      - Select
+      - DIRECT
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+    include-all: true
+    filter: "(新加坡|坡|狮城|SG|Singapore|🇸🇬|港|HK|Hong Kong|🇭🇰|台|新北|彰化|TW|Taiwan|🇨🇳)"
+
+  - name: YouTube
+    type: select
+    proxies:
+      - Google
+      - 香港节点
+      - Proxy
+      - Select
+      - DIRECT
+      - 狮城节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+
+  - name: YouTubeMusic
+    type: select
+    proxies:
+      - YouTube
+      - Google
+      - 香港节点
+      - Proxy
+      - Select
+
+  - name: Google
+    type: select
+    proxies:
+      - 美国节点
+      - Proxy
+      - DIRECT
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+    include-all: true
+    filter: "(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|JMS|🇺🇲|🇺🇸|港|HK|Hong Kong|🇭🇰)"
+
+  - name: GoogleVoice
+    type: select
+    proxies:
+      - 美国节点
+      - Google
+      - Proxy
+      - DIRECT
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+    include-all: true
+    filter: "(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|JMS|🇺🇲|🇺🇸)"
+
+  - name: USGroup
+    type: select
+    proxies:
+      - 美国节点
+      - Google
+      - Proxy
+      - DIRECT
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+    include-all: true
+    filter: "(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|JMS|🇺🇲|🇺🇸)"
+
+  - name: Pikpak
+    type: select
+    proxies:
+      - 狮城节点
+      - Proxy
+      - Select
+      - DIRECT
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+    include-all: true
+    filter: "(新加坡|坡|狮城|SG|Singapore|🇸🇬|港|HK|Hong Kong|🇭🇰|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|JMS|🇺🇲|🇺🇸)"
+
+  - name: Openai
+    type: select
+    proxies:
+      - 美国节点
+      - 香港节点
+      - 狮城节点
+      - 台湾节点
+      - 日本节点
+      - Proxy
+      - Select
+      - DIRECT
+
+  - name: Amazon
+    type: select
+    proxies:
+      - 美国节点
+      - Proxy
+      - Select
+      - 香港节点
+      - 狮城节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+
+  - name: ProxyMedia
+    type: select
+    proxies:
+      - Proxy
+      - Select
+      - DIRECT
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+
+  - name: Spotify
+    type: select
+    proxies:
+      - 美国节点
+      - Proxy
+      - DIRECT
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+
+  - name: Github
+    type: select
+    proxies:
+      - 美国节点
+      - Proxy
+      - DIRECT
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+
+  - name: Apple
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+      - Select
+      - 美国节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+
+  - name: GameDownload
+    type: select
+    proxies:
+      - Direct
+      - 香港节点
+      - 美国节点
+
+  - name: SteamCN
+    type: select
+    proxies:
+      - DIRECT
+      - Steam
+
+  - name: Steam
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+      - Select
+      - 香港节点
+      - 美国节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+    include-all: true
+
+  - name: Epic
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+      - Select
+      - 香港节点
+      - 美国节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+
+  - name: Origin
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+      - Select
+      - 香港节点
+      - 美国节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+    include-all: true
+    filter: "(港|HK|Hong Kong|🇭🇰|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|JMS|🇺🇲|🇺🇸)"
+
+  - name: Xbox
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+      - Select
+      - 香港节点
+      - 美国节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+
+  - name: Yandex
+    type: select
+    proxies:
+      - 美国节点
+      - 香港节点
+      - DIRECT
+      - Proxy
+      - Select
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+
+  - name: Direct
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+      - Select
+
+  - name: BanAD
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  - name: BanProgramAD
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+
+# ============================================================
+# Rules
+#
+# 使用 rules!：
+# 完全替换机场/订阅原有规则
+# 按 rulesetmini.ini 原始顺序执行
+# ============================================================
+
+rules!:
+
+  # ----- 最高优先级自定义规则 -----
+
+  - RULE-SET,MyFirstDirect,Direct
+  - RULE-SET,MyProxy,Proxy
+
+  - RULE-SET,MyGoogle,Google
+  - RULE-SET,GoogleCNProxyIP,Google
+
+  - RULE-SET,MyOneDrive21Vianet,OneDrive21Vianet
+  - RULE-SET,MyOneDriveEDU,OneDriveEDU
+  - RULE-SET,OneDrive,OneDrive
+
+  - RULE-SET,Microsoft,Microsoft
+  - RULE-SET,MyMicrosoft,Microsoft
+
+  - RULE-SET,GoogleVoice,GoogleVoice
+
+  - RULE-SET,Epic,Epic
+  - RULE-SET,Pikpak,Pikpak
+  - RULE-SET,Emby,Emby
+
+  - RULE-SET,Amazon,Amazon
+  - RULE-SET,MyAmazon,Amazon
+
+  - RULE-SET,Yandex,Yandex
+
+
+  # ----- 国内 / 直连 -----
+
+  - RULE-SET,LocalAreaNetwork,Direct
+  - RULE-SET,MyDirect,Direct
+  - RULE-SET,GoogleCN,Direct
+  - RULE-SET,ChinaMedia,Direct
+
+  - RULE-SET,SteamCN,SteamCN
+
+  - RULE-SET,UnBan,Direct
+  - RULE-SET,ChinaIp,Direct
+  - RULE-SET,ChinaDomain,Direct
+  - RULE-SET,ChinaCompanyIp,Direct
+  - RULE-SET,Download,Direct
+
+  - GEOIP,LAN,Direct
+  - GEOIP,CN,Direct,no-resolve
+
+
+  # ----- OpenAI -----
+
+  - RULE-SET,Chatgpt,Openai
+  - RULE-SET,OpenAi,Openai
+
+
+  # ----- 广告 -----
+
+  - RULE-SET,BanAD,BanAD
+  - RULE-SET,BanProgramAD,BanProgramAD
+
+
+  # ----- SteamCN 原配置第二次匹配 -----
+
+  - RULE-SET,SteamCN,SteamCN
+
+
+  # ----- 测速 -----
+
+  - RULE-SET,Speedtest,Speedtest
+
+
+  # ----- Google / YouTube -----
+
+  - RULE-SET,YouTube,YouTube
+  - RULE-SET,YouTubeMusic,YouTubeMusic
+
+  - RULE-SET,Google,Google
+  - RULE-SET,GoogleFCM,Google
+  - RULE-SET,GoogleCNProxyIP,Google
+  - RULE-SET,GoogleEarth,Google
+
+  - RULE-SET,MyUS,USGroup
+
+
+  # ----- Spotify / Github -----
+
+  - RULE-SET,Spotify,Spotify
+  - RULE-SET,MySpotify,Spotify
+
+  - RULE-SET,Github,Github
+
+
+  # ----- Telegram -----
+
+  - RULE-SET,TelegramSG,TelegramSG
+  - RULE-SET,TelegramUS,TelegramUS
+
+
+  # ----- 游戏 -----
+
+  - RULE-SET,GameDownload,GameDownload
+
+  - RULE-SET,Steam,Steam
+  - RULE-SET,MySteam,Steam
+
+  - RULE-SET,Origin,Origin
+  - RULE-SET,Xbox,Xbox
+
+
+  # ----- Apple -----
+
+  - RULE-SET,Apple,Apple
+
+
+  # ----- Netflix -----
+
+  - RULE-SET,Netflix,Netflix
+  - RULE-SET,NetflixIP,Netflix
+
+
+  # ----- Telegram 通用 -----
+
+  - RULE-SET,Telegram,Telegram
+
+
+  # ----- 流媒体 -----
+
+  - RULE-SET,ProxyMedia,ProxyMedia
+
+
+  # ----- 通用代理 -----
+
+  - RULE-SET,ProxyGFWlist,Proxy
+
+  # 原 rulesetmini.ini 中 MyProxy.list 再匹配一次
+  - RULE-SET,MyProxy,Proxy
+
+  - RULE-SET,MyProxyIP,Proxy
+
+
+  # ----- 最终规则 -----
+
+  - MATCH,FINAL
